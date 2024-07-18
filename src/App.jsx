@@ -1,9 +1,9 @@
-import React from 'react'
-import LogInPage from './Pages/LogInPage'
+import React from 'react';
+import ButtonComponent from './components/button/buttonComponent'
 const App = () => {
   return (
     <div>
-      <LogInPage/>
+      <ButtonComponent title="login"/>
     </div>
   )
 }
